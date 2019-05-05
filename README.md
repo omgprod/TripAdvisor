@@ -13,5 +13,3 @@ please use yarn:
 
 Node is required: 
 - strapi start 
-
-Developed by Haggerty Brian with ♥
