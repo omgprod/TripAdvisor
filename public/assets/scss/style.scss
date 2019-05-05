@@ -17,6 +17,22 @@ h2 {
   top: 50%;
   left: 43%;
 }
+input.myBtn{
+  font-family: Poppins;
+  transform: translate(0, 0);
+  display: block;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: black;
+  border: solid 2px black;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  background: none;
+  transition: 0.8s ease-out;
+}
 
 .myBtn {
   font-family: Poppins;
@@ -33,6 +49,11 @@ h2 {
   overflow: hidden;
   background: none;
   transition: 0.8s ease-out;
+  width: 100%;
+}
+
+.card{
+  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.55);
 }
 
 .myBtn:before {
@@ -193,6 +214,9 @@ nav {
   opacity: 0;
   visibility: hidden;
 }
+
+
+
 
 nav.search-open .search-result {
   transition-delay: .7s;
