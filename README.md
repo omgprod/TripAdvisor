@@ -13,3 +13,5 @@ please use yarn:
 
 Node is required: 
 - strapi start 
+
+Admin account strapi: test@test.test test01234
